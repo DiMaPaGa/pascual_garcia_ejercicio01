@@ -1,0 +1,23 @@
+
+div, ul{
+    display: flex;
+}
+
+.cabecera{
+       justify-content: space-between;
+       margin:  2% 5% 2% 5% !important;
+       }
+
+img{
+    width: 20%;
+    height: 20% !important;
+}
+
+li{
+padding: 3%;
+}
+
+.menu{
+    align-items: flex-end;
+}
+
