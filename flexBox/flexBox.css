@@ -1,23 +1,91 @@
 
-div, ul{
+.seccion_inicio{
     display: flex;
+    flex-direction: column;
+    width: 100 wh;
+    height: 100 wh;
+    
+
 }
 
 .cabecera{
        justify-content: space-between;
-       margin:  2% 5% 2% 5% !important;
-       }
+       gap: 100px;
 
-img{
-    width: 20%;
-    height: 20% !important;
 }
+
+
+.logo{
+    width: 20%;
+    height: 50% !important;
+
+}
+
+.logo p{
+    font-size: 30px;
+}
+.menu{
+    align-items: flex-end;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+
+
+
+}
+
+.inicio h1{
+    font-size: 50px;
+}
+
+.inicio h2{
+    font-size: 20px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 20px;
+    height: 24px;
+    padding: 25px;
+
+}
+
+.dudas{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(17, 195, 240);
+
+
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(17, 195, 240);
+
+
+}
+
+
+
+
+
+div, ul{
+    display: flex;
+}
+
+
+
+
 
 li{
 padding: 3%;
 }
 
-.menu{
-    align-items: flex-end;
-}
+
 
